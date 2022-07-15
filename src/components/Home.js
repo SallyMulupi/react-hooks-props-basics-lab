@@ -3,7 +3,9 @@ import React from "react";
 function Home(props){
   return (
     <div id="home">
-      <h1 style={{color:"firebrick"}}></h1>
+      <h1 style={{color:"firebrick"}}>
+        {props.name}is a web developer from{props.city}
+      </h1>
 
     </div>
   )
