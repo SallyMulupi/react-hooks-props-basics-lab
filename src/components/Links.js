@@ -10,4 +10,4 @@ const Links = (prop) => {
     )
 }
 
-export default Links
+export default Links;

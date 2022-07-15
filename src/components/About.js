@@ -6,7 +6,7 @@ function About(prop) {
       <h2>About Me</h2>
         {prop.bio === "" && !prop.bio ? <p>don't display</p> : <p>{prop.bio}</p>}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <Links  github="https://github.com/liza"  linkedin ="https://www.linkedin.com/in/liza/"/>
+      <p> Links  github="https://github.com/liza"  linkedin ="https://www.linkedin.com/in/liza/"</p>
       {/* add your <Links /> component here */}
     </div>
   );
